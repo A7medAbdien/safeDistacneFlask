@@ -1,6 +1,6 @@
 # Safe Distance App using MoveNet TF model and OpenCV on Flask
 
-This application is one of three developed applications using augmented reality and machine learning techniques to help individuals maintain social distance during the COVID-19 pandemic. The applications use the device's camera to detect and measure the distance between a user and any detected person. Feedback is provided to the user through digital overlays on the detected person, alerting the user when the predefined distance is violated.
+This application is one of three developed applications using augmented reality and machine learning techniques to help individuals maintain social distance during the COVID-19 pandemic. The applications use the device's camera to detect and measure the distance between a user and any detected person. Feedback is provided to the user through digital overlays on the detected person, alerting the user when the predefined distance is violated. Using Flask, OpenCV and MovNet ML model.
 
 ## Notes
 
