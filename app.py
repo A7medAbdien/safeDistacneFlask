@@ -3,7 +3,6 @@ from flask import Flask, render_template, Response
 import tensorflow as tf
 import tensorflow_hub as hub
 import cv2
-from matplotlib import pyplot as plt
 import numpy as np
 
 # Load model
@@ -14,7 +13,13 @@ safe_distance = 120
 
 
 app = Flask(__name__)
-camera = cv2.VideoCapture(1)
+
+"""
+👋👋👋👋
+please change me, if the camera did not work
+"""
+cameraIndex = 0
+camera = cv2.VideoCapture(cameraIndex)
 
 
 def generate_frames():
@@ -151,4 +156,4 @@ def video():
 
 
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=True)
